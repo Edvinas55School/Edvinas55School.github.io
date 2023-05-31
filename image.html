@@ -7,9 +7,9 @@
     function myFunction() {
       images = ["Hi","Hello","Wooo","Booo","Weee"]
       const randomElement = array[Math.floor(Math.random() * images.length)];
-      document.getElementByID("image").innerHTML = randomElement;
+      document.getElementById("image").innerHTML = randomElement;
     }
     
-    element = getElementByID("click");
+    element = document.getElementById("click");
     element.addEventListener("click", myFunction);
   </script>
