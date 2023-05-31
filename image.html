@@ -1,12 +1,15 @@
 <html>
   <h1> Image cycle! </h1>
   <div id="image"> Loading.... </div>
+  <br>
+  <button id="click"> Click Me! </button>
   <script>
     function myFunction() {
-      images = []
+      images = ["Hi","Hello","Wooo","Booo","Weee"]
       const randomElement = array[Math.floor(Math.random() * images.length)];
       document.getElementByID("image").innerHTML = randomElement;
     }
     
+    element = getElementByID("click");
     element.addEventListener("click", myFunction);
   </script>
