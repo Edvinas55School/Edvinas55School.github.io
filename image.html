@@ -5,7 +5,7 @@
   <button id="click"> Click Me! </button>
   <script>
     function myFunction() {
-      images = ["Hi","Hello","Wooo","Booo","Weee"]
+      images = ["<img src='https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tfGVufDB8fDB8fHww&w=1000&q=80'> </img>", "<img src='https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg?attachment_cache_bust=3136487&quality=85&strip=info&w=400'> </img>", "<img src='https://i.pinimg.com/236x/71/28/3b/71283bb49db55cfee5bb6acd1389c465--tree-of-life-the-tree.jpg'> </img>", "<img src='https://cdn.wallpapersafari.com/40/52/lHEsPO.jpg'> </img>", "<img src='https://blog.golayer.io/uploads/images/article/_800x418_crop_center-center_82_none/How-to-Make-a-Random-Number-Generator-in-Google-Sheets.jpg?mtime=1674920221'> </img>", "<img src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/99/02/3c/random-hall-hotel-16th.jpg?w=700&h=-1&s=1'> </img>", "<img src='https://www.hackingwithswift.com/uploads/matrix.jpg'> </img>", "<img src='https://facts.net/wp-content/uploads/2020/01/close-up-photography-of-cat-1183434.jpg'> </img>", "<img src='https://www.omfif.org/wp-content/uploads/2020/03/random-shocks-newweb.jpg'> </img>", "<img src='https://i.ytimg.com/vi/UViXvS6b2tk/maxresdefault.jpg'> </img>", "<img src='https://pbs.twimg.com/profile_images/1378194465488302083/NMgnNk-u_400x400.jpg'> </img>"]
       const randomElement = images[Math.floor(Math.random() * images.length)];
       document.getElementById("image").innerHTML = randomElement;
     }
